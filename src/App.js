@@ -11,8 +11,12 @@ function App() {
   return (
     <div className="App">
       <section>
+        <div className='logo_wpr'>
           <img src={googlelogo} alt="" />
-        {lang === '/es' ? <p>España</p> : lang === '/ar' ? <p>Argentina</p> : <p>Global!</p>}
+          <span>
+            {lang === '/es' ? 'España' : lang === '/ar' ? 'Argentina' : 'Global!'}
+          </span>
+        </div>
         <div>
           <form action="">
 
